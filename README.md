@@ -1,5 +1,5 @@
 # Snake Game
-<img width="796" height="898" alt="image" src="https://github.com/user-attachments/assets/5753da13-3667-4302-8b62-0eb25e8f28d5" />
+<img src="https://github.com/user-attachments/assets/5753da13-3667-4302-8b62-0eb25e8f28d5" width="400" alt="Snake gameplay">
 
 This is the classic Snake game recreated by me in C++ with SFML.
 
