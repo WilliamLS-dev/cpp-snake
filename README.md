@@ -22,7 +22,7 @@ You only need this if you want to compile the game yourself. Otherwise, use the 
 
 ```
 git clone https://github.com/WilliamLS-dev/cpp-snake.git
-cd cpp-snake
+cd cpp-snake\"Snake Game"
 cmake -B build
 cmake --build build --config Release
 ```
