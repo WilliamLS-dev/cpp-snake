@@ -7,7 +7,7 @@ This is the classic Snake game recreated by me in C++ with SFML.
 
 - Note: Only available for Windows.
 - Download the .zip file from the [Releases](../../releases) page.
-- Extract the zip and run main.exe inside the Snake Game folder.
+- Extract the zip and run main.exe inside the Snake.Game folder.
 
 ## Building from source
 
