@@ -20,3 +20,10 @@ add_executable(main WIN32 src/main.cpp)
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Main SFML::Graphics SFML::Audio)
 target_link_libraries(main PRIVATE SFML::Audio)
+
+add_custom_command(TARGET main POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_SOURCE_DIR}/Pixel Digivolve.otf"
+        "${CMAKE_SOURCE_DIR}/hit.wav"
+        "${CMAKE_SOURCE_DIR}/pickup.wav"
+        $<TARGET_FILE_DIR:main>)
