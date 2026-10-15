@@ -13,8 +13,8 @@ This is the classic Snake game recreated by me in C++ with SFML.
 
 You only need this if you want to compile the game yourself. Otherwise, use the release zip above.
 
-**Requirements (Windows):**
-- [Visual Studio](https://visualstudio.microsoft.com/) with the "Desktop development with C++" workload
+**Requirements:**
+- C++ Compiler
 - [CMake](https://cmake.org/download/) 3.28 or newer
 - [Git](https://git-scm.com/) (CMake uses it to download SFML automatically)
 
