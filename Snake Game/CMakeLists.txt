@@ -18,7 +18,10 @@ FetchContent_MakeAvailable(SFML)
 
 add_executable(main WIN32 src/main.cpp)
 target_compile_features(main PRIVATE cxx_std_17)
-target_link_libraries(main PRIVATE SFML::Main SFML::Graphics SFML::Audio)
+target_link_libraries(main PRIVATE SFML::Graphics SFML::Audio)
+if(WIN32)
+    target_link_libraries(main PRIVATE SFML::Main)
+endif()
 target_link_libraries(main PRIVATE SFML::Audio)
 
 add_custom_command(TARGET main POST_BUILD
