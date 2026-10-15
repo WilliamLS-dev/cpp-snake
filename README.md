@@ -11,7 +11,7 @@ This is the classic Snake game recreated by me in C++ with SFML.
 
 ## Building from source
 
-You only need this if you want to compile the game yourself. Otherwise, use the release zip above.
+You only need this if you want to compile the game yourself or you are not on Windows. Otherwise, use the release zip above.
 
 **Requirements:**
 - C++ Compiler
